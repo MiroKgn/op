@@ -1,0 +1,12 @@
+2025-05-26 07:04:13.515 [error] [default] github.copilot.signIn: TokenResultError [CopilotAuthError]: Timed out waiting for authentication provider to register
+    at getSessionHelper (c:\Users\alone\.vscode\extensions\github.copilot-1.323.0\extension\src\session.ts:84:42)
+    at signInCommand (c:\Users\alone\.vscode\extensions\github.copilot-1.323.0\extension\src\auth.ts:24:5)
+    at c:\Users\alone\.vscode\extensions\github.copilot-1.323.0\extension\src\telemetry.ts:23:13
+    at Wb.h (file:///c:/Users/alone/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:41516)
+    at Lq.handleItemSelection (c:\Users\alone\.vscode\extensions\github.copilot-1.323.0\extension\src\statusBarPicker.ts:42:13) {
+  result: {
+    reason: 'NotSignedIn',
+    message: 'Timed out waiting for authentication provider to register'
+  },
+  [cause]: undefined
+}
